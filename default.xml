@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <default sync-j="4" revision="fido"/>
+
+  <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
+  <remote fetch="https://github.com/Freescale" name="freescale"/>
+  <remote fetch="https://github.com/openembedded" name="oe"/>
+  <remote fetch="https://github.com/Elarm" name="elarm"/>
+
+  <project remote="yocto" revision="fido" name="poky" path="yocto/poky"/>
+  <project remote="yocto" revision="fido" name="meta-fsl-arm" path="yocto/meta-fsl-arm"/>
+  <project remote="yocto" revision="fido" name="meta-ti" path="yocto/meta-ti"/>
+
+  <project remote="oe" revision="fido" name="meta-openembedded" path="oe/meta-openembedded"/>
+
+  <project remote="elarm" revision="314-ti" name="elarm-yocto" path="elarm"/>
+
+  <project remote="freescale" revision="fido" name="meta-fsl-arm-extra" path="freescale/meta-fsl-arm-extra"/>
+  <project remote="freescale" revision="fido" name="meta-fsl-demos" path="freescale/meta-fsl-demos"/>
+
+
