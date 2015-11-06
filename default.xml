@@ -19,4 +19,4 @@
   <project remote="freescale" revision="fido" name="meta-fsl-arm-extra" path="freescale/meta-fsl-arm-extra"/>
   <project remote="freescale" revision="fido" name="meta-fsl-demos" path="freescale/meta-fsl-demos"/>
 
-
+</manifest>
