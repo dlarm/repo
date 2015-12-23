@@ -7,7 +7,7 @@
   <remote fetch="https://github.com/Freescale" name="freescale"/>
   <remote fetch="https://github.com/openembedded" name="oe"/>
   <remote fetch="https://github.com/Elarm" name="elarm"/>
-  <remote fetch="https://github.com/imyller" name "node"/>
+  <remote fetch="https://github.com/imyller" name="node"/>
 
   <project remote="yocto" revision="fido" name="poky" path="yocto/poky"/>
   <project remote="yocto" revision="fido" name="meta-fsl-arm" path="yocto/meta-fsl-arm"/>
