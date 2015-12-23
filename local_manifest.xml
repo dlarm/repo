@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-   <remote name="resin" fetch="https://github.com/resin-io/" />
+   <remote name="resin" fetch="https://github.com/dlarm/" />
    <project remote="resin" revision="master" name="meta-resin" path="resin/meta-resin" />
 </manifest>

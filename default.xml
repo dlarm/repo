@@ -7,6 +7,7 @@
   <remote fetch="https://github.com/Freescale" name="freescale"/>
   <remote fetch="https://github.com/openembedded" name="oe"/>
   <remote fetch="https://github.com/Elarm" name="elarm"/>
+  <remote fetch="https://github.com/imyller" name "node"/>
 
   <project remote="yocto" revision="fido" name="poky" path="yocto/poky"/>
   <project remote="yocto" revision="fido" name="meta-fsl-arm" path="yocto/meta-fsl-arm"/>
@@ -19,4 +20,6 @@
   <project remote="freescale" revision="fido" name="meta-fsl-arm-extra" path="freescale/meta-fsl-arm-extra"/>
   <project remote="freescale" revision="fido" name="meta-fsl-demos" path="freescale/meta-fsl-demos"/>
 
+  <project remote="node" revision="master" name="meta-nodejs" path="node/meta-nodejs"/>
+  <project remote="node" revision="master" name="bitbake-npm" path="node/bitbake-npm" />
 </manifest>
