@@ -21,7 +21,7 @@
   <project remote="freescale" revision="fido" name="meta-fsl-arm-extra" path="freescale/meta-fsl-arm-extra"/>
   <project remote="freescale" revision="fido" name="meta-fsl-demos" path="freescale/meta-fsl-demos"/>
 
-  <project remote="node" revision="002f26bdedf1ae54a063046eb9243fbdfea8d4ed" name="meta-nodejs" path="node/meta-nodejs"/>
+  <project remote="node" revision="master" name="meta-nodejs" path="node/meta-nodejs"/>
   <project remote="node" revision="master" name="bitbake-npm" path="node/bitbake-npm" />
   <project remote="resin" revision="master" name="meta-resin" path="resin/meta-resin" />
 </manifest>
