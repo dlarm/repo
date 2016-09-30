@@ -6,7 +6,7 @@
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote fetch="https://github.com/Freescale" name="freescale"/>
   <remote fetch="https://github.com/openembedded" name="oe"/>
-  <remote fetch="ssh://git@github.com/Elarm" name="elarm"/>
+  <remote fetch="ssh://git@gitlab.com/elarm-embedded" name="elarm"/>
   <remote fetch="https://github.com/imyller" name="node"/>
   <remote fetch="https://github.com/dlarm" name="resin"/>
 
