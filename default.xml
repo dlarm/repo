@@ -10,18 +10,17 @@
   <remote fetch="https://github.com/imyller" name="node"/>
   <remote fetch="https://github.com/dlarm" name="resin"/>
 
-  <project remote="yocto" revision="fido" name="poky" path="yocto/poky"/>
-  <project remote="yocto" revision="fido" name="meta-fsl-arm" path="yocto/meta-fsl-arm"/>
+  <project remote="yocto" revision="yocto/morty" name="poky" path="yocto/poky"/>
+  <project remote="yocto" revision="morty" name="meta-freescale" path="yocto/meta-freescale"/>
   <project remote="yocto" revision="fido" name="meta-ti" path="yocto/meta-ti"/>
 
-  <project remote="oe" revision="fido" name="meta-openembedded" path="oe/meta-openembedded"/>
+  <project remote="oe" revision=oe/"morty" name="meta-openembedded" path="oe/meta-openembedded"/>
 
   <project remote="elarm" revision="master" name="elarm-yocto" path="elarm"/>
 
-  <project remote="freescale" revision="fido" name="meta-fsl-arm-extra" path="freescale/meta-fsl-arm-extra"/>
-  <project remote="freescale" revision="fido" name="meta-fsl-demos" path="freescale/meta-fsl-demos"/>
+  <project remote="freescale" revision="freescale/morty" name="meta-fsl-demos" path="freescale/meta-fsl-demos"/>
 
-  <project remote="node" revision="master" name="meta-nodejs" path="node/meta-nodejs"/>
+  <project remote="node" revision="morty" name="meta-nodejs" path="node/meta-nodejs"/>
   <project remote="node" revision="master" name="bitbake-npm" path="node/bitbake-npm" />
   <project remote="resin" revision="master" name="meta-resin" path="resin/meta-resin" />
 </manifest>
