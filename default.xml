@@ -16,7 +16,7 @@
 
   <project remote="oe" revision="morty" name="meta-openembedded" path="oe/meta-openembedded"/>
 
-  <project remote="elarm" revision="v2.2" name="elarm-yocto" path="elarm"/>
+  <project remote="elarm" revision="master" name="elarm-yocto" path="elarm"/>
 
   <project remote="freescale" revision="morty" name="meta-fsl-demos" path="freescale/meta-fsl-demos"/>
 
